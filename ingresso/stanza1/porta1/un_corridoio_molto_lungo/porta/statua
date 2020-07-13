@@ -1,0 +1,90 @@
+#!/bin/sh
+
+echo
+echo 'Ti avvicini alla statua.'
+echo
+echo 'Sembra raffigurare una figura mostruosa (un "gargoyle").'
+echo
+echo 'Tocchi la statua per analizzarla...'
+echo '(premi INVIO per continuare)'
+echo
+
+read
+
+echo 'La statua prende vita e cerca di colpirti!'
+echo
+echo 'Per scappare dalla stanza, digita:	cd ..'
+echo 'Per scappare più velocemente, digita:	cd ../../..'
+echo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# La stanza sembra contenere una statua, ma non riesci a vederla bene.
+#
+# Per interagire con un oggetto (un programma), dovrai digitarne il percorso.
+# Ad esempio, puoi digitare:	./statua
+

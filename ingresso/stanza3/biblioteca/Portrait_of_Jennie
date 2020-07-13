@@ -1,0 +1,25 @@
+
+         _______________
+    ()==(              (@==()
+         '______________'|
+           |             |
+           |             |
+         __)_____________|
+    ()==(               (@==()
+         '--------------'
+                          PjP
+
+
+Hai trovato la terza parola segreta!
+
+Per memorizzarla, digita il comando:
+
+export TERZAPARTE="file"
+
+Ogni volta che vorrai mostrarla a video, digita il comando:
+
+echo $TERZAPARTE
+
+
+Dirigiti ora verso l'uscita del sotterraneo!
+(la cartella "uscita" in "stanza3").

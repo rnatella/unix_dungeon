@@ -1,0 +1,22 @@
+
+         _______________
+    ()==(              (@==()
+         '______________'|
+           |             |
+           |             |
+         __)_____________|
+    ()==(               (@==()
+         '--------------'
+                          PjP
+
+
+Hai trovato la seconda parte della frase segreta!
+
+Per memorizzarla, digita il comando:
+
+export SECONDAPARTE="is a"
+
+Ogni volta che vorrai mostrarla a video, digita il comando:
+
+echo $SECONDAPARTE
+

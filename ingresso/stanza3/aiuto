@@ -1,0 +1,11 @@
+
+Usa questo comando per elencare tutti i libri:
+(da lanciare dalla cartella "stanza3")
+
+$ ls biblioteca
+
+Per elencare il solo libro con la parola "Jennie",
+puoi usare questo comando:
+
+$ ls biblioteca/*Jennie*
+

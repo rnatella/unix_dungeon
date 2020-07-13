@@ -1,0 +1,22 @@
+
+         _______________
+    ()==(              (@==()
+         '______________'|
+           |             |
+           |             |
+         __)_____________|
+    ()==(               (@==()
+         '--------------'
+                          PjP
+
+
+Hai trovato la prima parola segreta!
+
+Per memorizzarla, digita il comando:
+
+export PRIMAPARTE="Everything"
+
+Ogni volta che vorrai mostrarla a video, digita il comando:
+
+echo $PRIMAPARTE
+
