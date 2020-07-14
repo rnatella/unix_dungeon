@@ -15,9 +15,12 @@ Non riesci a distinguere tra gli oggetti e i luoghi.
 
 Puoi potenziare il tuo incantesimo ``ls'', digitando:	ls -l
 
-I luoghi (le ``cartelle'') iniziano con la lettera "d".
+I luoghi (le ``cartelle'') iniziano con la lettera "d"
+(sta per "Directory").
 
 Gli oggetti (i ``programmi'') iniziano con il simbolo "-",
-seguito da "rwx" ("x" sta per "eXecutable")
+seguito da "rwx" ("x" sta per "eXecutable").
+
+Prova ad usare "cat" sul file "statua" per vederne il contenuto.
 
 

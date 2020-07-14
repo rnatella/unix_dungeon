@@ -20,3 +20,6 @@ Ogni volta che vorrai mostrarla a video, digita il comando:
 
 echo $PRIMAPARTE
 
+Adesso ritorna al punto di partenza con il comando "cd"
+per continuare l'esplorazione.
+

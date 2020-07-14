@@ -14,8 +14,10 @@ Premi INVIO se nella finestra del terminale ti appare questo
 (o simile, in base a dove è stato salvato il file):
 
 ```
-$ cd /home/nomeutente/Downloads/unix_game/ingresso
+$ cd /home/nomeutente/Downloads/unix_dungeon/ingresso
 ```
+
+**NOTA**: il **simbolo $** non va digitato. Esso è usato nelle guide e nel terminale per indicare l'inizio della riga di comando dell'utente. 
 
 Per iniziare il gioco, digita:
 
@@ -31,7 +33,7 @@ Buona fortuna!
 
 Questo gioco è stato creato come introduzione all'uso della shell, per il corso di Sistemi Operativi presso il corso di Laurea in Ingegneria Informatica, Università degli Studi di Napoli Federico II. Il gioco è ispirato all'avventura testuale [*bashcrawl*](https://gitlab.com/slackermedia/bashcrawl).
 
-Il gioco contiene immagini ASCII art da [ASCII Art Archive](www.asciiart.eu) e da [ASCII.co.uk](ascii.co.uk), realizzate da:
+Il gioco contiene immagini ASCII art da [ASCII Art Archive](https://www.asciiart.eu) e da [ASCII.co.uk](https://ascii.co.uk), realizzate da:
 - *hjw* 		(books)
 - *Shanaka Dias*	(Wizard)
 - *Deelkar*	(devils)

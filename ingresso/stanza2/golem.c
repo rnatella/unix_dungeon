@@ -1,23 +1,36 @@
-#include <sys/stat.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
 
 int main() {
 
-	printf("\nIl golem prende vita!\n\n");
+	pid_t pid = fork();
 
-	int ret = chmod("./pergamena", S_IRUSR|S_IWUSR);
+	if(pid == 0) {
 
-	if(ret < 0) {
+		execlp("tar", "tar", "zxf", "./teca.tar.gz", 0);
 
-		perror("Impossibile accedere alla pergamena");
-		printf("\n");
+	}
+	else if(pid < 0) {
 
-		return 1;
+		perror("Il golem non riesce ad eseguire il tuo comando");
+		exit(1);
+
+	}
+	else {
+
+		wait(NULL);
 	}
 
-	printf("Esso rimuove il sigillo dalla teca, usando il comando:\tchmod +rw pergamena\n\n");
+	printf("\nIl golem esegue il tuo comando e rimuove il sigillo da 'teca.tar.gz' (un archivio)\n\n");
 
-	printf("Usa il comando \"ls -l\" per verificare che hai ora i permessi di accesso.\n\n");
+	printf("Se provi a leggere la 'pergamena', avrai un messaggio di errore.\n\n");
+
+	printf("Il comando ``ls -l'' ti mostrerà che non hai i permessi di accesso\n");
+	printf("(nessuna 'r' di 'read', o 'w' di 'write').\n\n");
+
+	printf("Usa il comando ``chmod +rw pergamena'' per darti i permessi di accesso.\n\n");
 
 	return 0;
 }
@@ -120,7 +133,7 @@ int main() {
  *
  * Questo oggetto è un "golem", un gigante meccanico inanimato.
  *
- * I maghi possono animare i golem e impartirgli comandi con un incantesimo.
+ * I maghi possono animare i golem e impartirgli comandi.
  *
  * Per montare i pezzi del golem, digitare il comando:
  *
