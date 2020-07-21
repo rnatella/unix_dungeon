@@ -31,7 +31,7 @@ Buona fortuna!
 
 # A proposito di questo gioco
 
-Questo gioco è stato creato come introduzione all'uso della shell, per il corso di Sistemi Operativi presso il corso di Laurea in Ingegneria Informatica, Università degli Studi di Napoli Federico II. Il gioco è ispirato all'avventura testuale [*bashcrawl*](https://gitlab.com/slackermedia/bashcrawl).
+Questo gioco è stato creato come introduzione all'uso della shell, per il corso di Sistemi Operativi presso il corso di Laurea in Ingegneria Informatica, Università degli Studi di Napoli Federico II. Il gioco è ispirato alle avventure testuali [*bashcrawl*](https://gitlab.com/slackermedia/bashcrawl) e [*The Command Line Murders*](https://github.com/veltman/clmystery).
 
 Il gioco contiene immagini ASCII art da [ASCII Art Archive](https://www.asciiart.eu) e da [ASCII.co.uk](https://ascii.co.uk), realizzate da:
 - *hjw* 		(books)
