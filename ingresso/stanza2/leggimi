@@ -19,8 +19,7 @@ cjr
 
 La pergamena è custodita in una teca sigillata, che non riesci ad aprire!
 
-Se provi a leggere la pergamena, avrai un messaggio di errore.
+Nella stanza, noti la presenza di un golem.
 
-Il comando ``ls -l'' ti mostrerà che non hai i permessi di accesso
-(nessuna "r" di "read", o "w" di "write").
+Per osservarlo meglio, digita:		cat golem.c
 

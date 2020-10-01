@@ -37,7 +37,7 @@ echo "La frase che hai trovato è: $FRASE"
 echo
 
 
-CRYPTED=`echo "$FRASE" | md5`
+CRYPTED=`echo "$FRASE" | md5sum | awk '{print $1}'`
 
 
 if [ "$CRYPTED" = "7d68305f41f57b7d5e028168f632d585" ]

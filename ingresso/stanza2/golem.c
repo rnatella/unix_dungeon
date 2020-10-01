@@ -9,7 +9,7 @@ int main() {
 
 	if(pid == 0) {
 
-		execlp("tar", "tar", "zxf", "./teca.tar.gz", 0);
+		execlp("tar", "tar", "zxf", "./teca.tar.gz", NULL);
 
 	}
 	else if(pid < 0) {
