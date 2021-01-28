@@ -21,6 +21,6 @@ I luoghi (le ``cartelle'') iniziano con la lettera "d"
 Gli oggetti (i ``programmi'') iniziano con il simbolo "-",
 seguito da "rwx" ("x" sta per "eXecutable").
 
-Prova ad usare "cat" sul file "statua" per vederne il contenuto.
-
+Prova ad usare "ls -l".
+Poi, usa il comando "cat" sul file "statua" per il prossimo indizio.
 
