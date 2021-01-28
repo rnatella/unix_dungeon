@@ -25,10 +25,10 @@
 
 Hai davanti a te un lungo corridoio.
 
-Per percorrerlo più velocemente, puoi digitare soltanto "cd un".
+Per percorrerlo più velocemente, puoi digitare semplicemente "cd un".
 
-Non premere "INVIO". Premi invece il tasto "TAB"
+Non premere subito "INVIO". Premi invece il tasto "TAB"
 (il tasto a sinistra della lettera "Q").
 
-Il terminale digiterà automaticamente i caratteri rimanenti.
+La shell aggiungerà automaticamente i caratteri rimanenti.
 
