@@ -23,7 +23,7 @@ Ricezione degli oggetti: 100% (483/483), 37.58 KiB | 199.00 KiB/s, fatto.
 Risoluzione dei delta: 100% (17/17), fatto.
 ```
 
-**NOTA**: il **simbolo $** (dollaro) non va digitato. Viene nelle guide e nel terminale per indicare la riga su cui appare il comando digitato dall'utente. 
+**NOTA**: il **simbolo $** (dollaro) non va digitato. Viene mostrato nelle guide e nel terminale per indicare la riga su cui appare il comando digitato dall'utente. 
 
 Il gioco è stato scaricato nella cartella `/home/tizio/unix_dungeon` (`tizio` è il nome dell'utente).
 
