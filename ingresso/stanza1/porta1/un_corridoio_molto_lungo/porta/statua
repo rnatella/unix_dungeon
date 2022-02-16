@@ -87,6 +87,11 @@ echo
 
 # La stanza sembra contenere una statua, ma non riesci a vederla bene.
 #
-# Per interagire con un oggetto (un programma), dovrai digitarne il percorso.
-# Ad esempio, puoi digitare:	./statua
+# Questo non è un normale file di testo, ma è un programma eseguibile,
+# perchè "ls -l" mostra la "x" di "eXecutable".
+#
+# Per eseguire un programma, devi digitarne il percorso.
+#
+# In questo caso, puoi digitare: ./statua
+# Il punto "." indica alla shell che il programma è nella directory corrente.
 
